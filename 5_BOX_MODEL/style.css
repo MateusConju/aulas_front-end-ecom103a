@@ -48,3 +48,48 @@ h1 {
     padding-bottom: 30px;
     padding-left: 40px;
 }
+
+/* padding-inline e padding-block */
+.paragrafo {
+    border: 2px double lightseagreen;
+    width: fit-content;
+    height: fit-content;
+
+    padding-inline: 20px;
+    padding-block: 40px;
+}
+
+/* shorthand do padding */
+.shorthand {
+    border: 2px solid olivedrab;
+    width: fit-content;
+
+    /* todos os lados */
+    padding: 25px;
+
+    /* top + bottom / left + right */
+    padding: 20px 40px;
+
+    /* top / left + right / bottom */
+    padding: 30px 60px 10px;
+}
+
+#titulo {
+    /* top / right / bottom / left */
+    padding: 10px 20px 30px 40px;
+}
+
+/* Margin = margem / espaço externo/entre os elementos */
+h1 {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+.texto {
+    margin-inline: auto;
+}
+
+.paragrafo {
+    margin: 30px 50px;
+}
